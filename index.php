@@ -138,6 +138,50 @@
                         ]
                     }
                 },
+                '\n',
+                {
+                    columns: [  
+                        {},
+                        {
+                            stack: [
+                                // second column consists of paragraphs
+                                'Medan, 01 September 2018',
+                            ],
+                            fontSize: 12,
+                            alignment: 'center',
+                        },
+                    ]
+                },
+                {
+                    columns: [  
+                        {
+                            stack: [
+                                // second column consists of paragraphs
+                                'Pejabat Penilai',
+                                '\n',
+                                '\n',
+                                '\n',
+                                '(Johani Dewita Nasution, SKM., M.kes)',
+                                'NIP. 327589327598739',
+                            ],
+                            fontSize: 12,
+                            alignment: 'center',
+                        },
+                        {
+                            stack: [
+                                // second column consists of paragraphs
+                                'Pegawai Yang Dinilai',
+                                '\n',
+                                '\n',
+                                '\n',
+                                '(Afniwati, S.Kep., Ns., M.Kes)',
+                                'NIP. 932589347559035',
+                            ],
+                            fontSize: 12,
+                            alignment: 'center',
+                        },
+                    ]
+                },
             ]
         }
         // pdfMake.createPdf(docDefinition).download('Report.pdf');
